@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #4FCC81;
+}
+
+nav {
+  width: 100vw;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 40px 20px 0 0;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 125%;
+  color: #E9FBE7;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover {
+  color: #14482A;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+}
+
+p {
+  padding: 15px 20px;
+  border: 5px solid #fff;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%;
+}
+
+@media (max-width: 450px) {
+  nav {
+    text-align: center;
+  }
+}
